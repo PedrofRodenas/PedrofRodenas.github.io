@@ -23,7 +23,7 @@ description              : "Una web impresionante"
 url                      : "https://pedrofrodenas.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "pedrofrodenas/pedrofrodenas.github.io"
-teaser                   : "assets/images/yo.jpg"
+teaser                   : #"assets/images/yo.jpg"
 breadcrumbs              : true
 words_per_minute         : 200
 comments:
