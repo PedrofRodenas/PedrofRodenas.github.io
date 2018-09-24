@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "es-Es"
-title                    : "Pedro Rodenas Perez"
+title                    : "Pedro Ródenas Pérez"
 title_separator          : "-"
 name                     : "Pedro Ródenas"
 description              : "Una web impresionante"
@@ -100,7 +100,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Pedro Fernando Ródenas Pérez"
+  name             : "Pedro Ródenas Pérez"
   avatar           : "/assets/images/yo.jpg"
   bio              : "Ingeniero de Sonido e Imagen en Telecomunicaciones."
   location         : 
