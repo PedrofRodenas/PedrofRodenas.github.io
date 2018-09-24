@@ -25,6 +25,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "pedrofrodenas/pedrofrodenas.github.io"
 teaser                   : #"assets/images/yo.jpg"
 breadcrumbs              : true
+show_drafts              : true
 words_per_minute         : 200
 comments:
   provider               : "disqus"
