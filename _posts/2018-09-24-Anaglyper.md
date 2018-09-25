@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Anaglyph estimation from mono images"
+permalink: /blog/
 date:   2018-09-18
 ---
 
