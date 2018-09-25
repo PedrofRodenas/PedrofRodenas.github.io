@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "Anaglyph estimation from mono images"
+header:
+  teaser: "/assets/images/vanish.png"
 date:   2018-09-18
 ---
 
