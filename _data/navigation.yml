@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: index.html
   - title: "Blogs"
-    url: /Blogs/
+    url: https://pedrofrodenas.github.io/blog/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
