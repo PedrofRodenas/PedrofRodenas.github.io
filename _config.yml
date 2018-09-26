@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "air" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "es-Es"
+locale                   : "es-ES"
 title                    : "Pedro Ródenas Pérez"
 title_separator          : "-"
 name                     : "Pedro Ródenas"
