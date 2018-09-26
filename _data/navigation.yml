@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Home"
-    url: index.html
+    url: https://pedrofrodenas.github.io/home/
   - title: "Blogs"
     url: https://pedrofrodenas.github.io/Blogs/
   # - title: "Sample Posts"
