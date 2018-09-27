@@ -93,7 +93,7 @@ facebook:
   username               : "pedrofrodenas"
   app_id                 :
   publisher              :
-og_image                 : /assets/images/python-logo.jpg
+og_image                 : "/assets/images/python-logo.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -113,7 +113,7 @@ analytics:
 # Site Author
 author:
   name             : "Pedro Ródenas Pérez"
-  avatar           : "/assets/images/yo.jpg"
+  avatar           : "/assets/images/yo2.jpg"
   bio              : "Ingeniero de Sonido e Imagen en Telecomunicaciones."
   location         : 
   email            : "pedrofrodenas@gmail.com"
