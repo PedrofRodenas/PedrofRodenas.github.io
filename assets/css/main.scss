@@ -7,7 +7,4 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 // your styles here
-.greedy-nav a { color: red; }
-.masthead__menu { 
-  color: red;
-}
+
