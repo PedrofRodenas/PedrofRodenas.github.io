@@ -6,8 +6,8 @@ author_profile: true
 comments: true
 ---
 
-<ul>
+<div class="grid__wrapper">
   {% for post in site.posts %}
    {% include archive-single.html %}
   {% endfor %}
-</ul>
+</div>
