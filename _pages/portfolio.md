@@ -1,5 +1,5 @@
 ---
-title: Portfolio
+title: 
 layout: collection
 permalink: /portfolio/
 collection: portfolio
@@ -8,4 +8,3 @@ author_profile: True
 classes: wide
 ---
 
-Sample document listing for the collection `_portfolio`.
