@@ -7,6 +7,15 @@
 //$link-color: mix(#fff, rgb(40, 40, 40), 25%);
 $link-color: rgb(40, 40, 40);
 
+.masthead__inner-wrap {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    padding: 1em 1em 1em;
+    font-family: "PT Sans Narrow",-apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 // your styles here
