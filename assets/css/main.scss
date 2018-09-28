@@ -6,7 +6,7 @@
 
 //$link-color: mix(#fff, rgb(40, 40, 40), 25%);
 //$link-color: rgb(40, 40, 40);
-$link-color: black;
+$link-color: rgb(0, 0, 0);
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
