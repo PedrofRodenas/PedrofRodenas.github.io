@@ -13,7 +13,7 @@ Keras es una biblioteca de código abierto escrita en Python. Se ejecuta sobre [
 
 ### Diagrama de flujo
 
-<img src="net.png" width="500">
+<img src="/assets/images/net.png" width="500">
 
 
 
@@ -41,7 +41,7 @@ Donde:
 
 Visto gráficamente:
 
-<img src="Imagen1.png" width="400">
+<img src="/assets/images/Imagen1.png" width="400">
 
 El tamaño de paso para mover el filtro a través de la imagen de entrada se llama stride. Hay un stride para mover el filtro horizontalmente (eje x) y otro paso para moverse verticalmente (eje y).  
 En el siguiente tutorial se establece en 1 el stride en ambas direcciones, lo que significa que el filtro comienza en la esquina superior izquierda de la imagen de entrada y se mueve 1 píxel a la derecha en cada paso. Cuando el filtro llega al borde derecho de la imagen, el filtro vuelve al lado izquierdo y 1 píxel hacia abajo. Esto continúa hasta que el filtro haya alcanzado la esquina inferior derecha de la imagen de entrada y se haya generado toda la imagen de salida.
@@ -65,7 +65,7 @@ La salida de una capa convolucional tambien puede ser sub-muestreada, que es con
 Se aplica una ventana deslizante con un determinado stride como en la convolución pero esta toma los píxeles que caen dentro de ella y realiza algún tipo de operación lineal o no lineal. La más utilizada es conocida como Max-Pooling y toma el pixel que tiene más valor dentro de la ventana y lo coloca en la imagen de salida.  
 En la imagen siguiente se muestra la operación de pooling o sub-muestreo del tipo max-pooling. Con un stride de 2 para el eje horizontal y 2 para el eje vertical, tambien representado como stride = [2, 2].
 
-<img src="Imagen2.png" width="400">
+<img src="/assets/images/Imagen2.png" width="400">
 
 Nota que la imagen de salida tiene la mitad de tamaño que la imagen de entrada.
 
@@ -255,7 +255,7 @@ plot_imagenes(imagenes=images, verdaderas=true_cls)
 ```
 
 
-![png](output_23_0.png)
+![png](/assets/images/output_23_0.png)
 
 
 ### Función auxiliar para plotear las imagenes mal clasificadas
@@ -454,7 +454,7 @@ plot_imagenes(imagenes=images_test,
 ```
 
 
-![png](output_42_0.png)
+![png](/assets/images/output_42_0.png)
 
 
 ### Ver las que se han clasificado incorrectamente
@@ -465,7 +465,7 @@ plot_misclasification(pred_cls=num_pred, true_cls=true_cls)
 ```
 
 
-![png](output_44_0.png)
+![png](/assets/images/output_44_0.png)
 
 
 ### Guardar el modelo
