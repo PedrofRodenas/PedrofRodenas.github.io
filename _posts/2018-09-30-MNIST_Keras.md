@@ -6,11 +6,6 @@ header:
 date:   2018-09-30
 ---
 
-
-# Deep Learning tutorial #1
-
-# Clasificación MNIST con Keras
-
 by [Pedro Fernando Rodenas Perez](https://pedrofrodenas.github.io) / [GitHub](https://github.com/PedrofRodenas)
 
 
