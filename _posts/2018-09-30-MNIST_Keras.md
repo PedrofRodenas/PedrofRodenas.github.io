@@ -6,8 +6,7 @@ header:
 date:   2018-09-30
 ---
 
-by [Pedro Fernando Rodenas Perez](https://pedrofrodenas.github.io) / [GitHub](https://github.com/PedrofRodenas)
-
+El código completo de este post está disponible en [libreta de Jupyter](https://github.com/PedrofRodenas/Deep-Learning-Tutoriales/blob/master/MNIST_Keras.ipynb)
 
 ### Introducción
 
@@ -491,3 +490,5 @@ model.save(nombre_model)
 # Borramos el modelo de memoria si no se va a utilizar mas
 del model
 ```
+
+by [Pedro Fernando Rodenas Perez](https://pedrofrodenas.github.io) / [GitHub](https://github.com/PedrofRodenas)
