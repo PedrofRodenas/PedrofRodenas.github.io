@@ -1,3 +1,11 @@
+---
+layout: single
+title:  "Clasificación MNIST con Keras (Deep Learning)"
+header:
+  teaser: "/assets/images/mnist.jpg"
+date:   2018-09-30
+---
+
 
 # Deep Learning tutorial #1
 
