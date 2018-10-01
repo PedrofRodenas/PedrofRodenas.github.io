@@ -109,7 +109,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("data/MNIST/", one_hot=True)
 ```
 
-```
+```text
 Extracting data/MNIST/train-images-idx3-ubyte.gz
 Extracting data/MNIST/train-labels-idx1-ubyte.gz
 Extracting data/MNIST/t10k-images-idx3-ubyte.gz
