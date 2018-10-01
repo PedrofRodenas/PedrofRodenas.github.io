@@ -109,12 +109,12 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("data/MNIST/", one_hot=True)
 ```
 
-<div>
-Extracting data/MNIST/train-images-idx3-ubyte.gz
-Extracting data/MNIST/train-labels-idx1-ubyte.gz
-Extracting data/MNIST/t10k-images-idx3-ubyte.gz
-Extracting data/MNIST/t10k-labels-idx1-ubyte.gz
-</div>
+
+Extracting data/MNIST/train-images-idx3-ubyte.gz{: .notice}
+Extracting data/MNIST/train-labels-idx1-ubyte.gz{: .notice}
+Extracting data/MNIST/t10k-images-idx3-ubyte.gz{: .notice}
+Extracting data/MNIST/t10k-labels-idx1-ubyte.gz{: .notice}
+
 
 El conjunto de datos MNIST ahora se ha cargado y consiste en 70,000 imágenes y números de clase para las imágenes. El conjunto de datos se divide en 3 subconjuntos. Uno se utiliza para entrenar la red, otro para testearla y otro para validar que el entreno se este realizando correctamente.  
 
