@@ -4,6 +4,10 @@ title:  "Clasificación MNIST con Keras (Deep Learning)"
 header:
   teaser: "/assets/images/mnist.jpg"
 date:   2018-09-30
+---
+
+Tutorial de Deep Learning con Keras para clasificar la base de datos MNIST.
+
 <style>
   
 .parr{
@@ -13,9 +17,6 @@ date:   2018-09-30
   font-size: 14px !important;
   }
 </style>
----
-
-Tutorial de Deep Learning con Keras para clasificar la base de datos MNIST
 
 El código completo de este post está disponible en [libreta de Jupyter](https://github.com/PedrofRodenas/Deep-Learning-Tutoriales/blob/master/MNIST_Keras.ipynb)
 
