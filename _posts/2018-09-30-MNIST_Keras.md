@@ -4,7 +4,15 @@ title:  "Clasificación MNIST con Keras (Deep Learning)"
 header:
   teaser: "/assets/images/mnist.jpg"
 date:   2018-09-30
-font-size: 2.441em;
+<style>
+  
+.parr{
+  color:black;
+  white-space: pre;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px !important;
+  }
+</style>
 ---
 
 Tutorial de Deep Learning con Keras para clasificar la base de datos MNIST
@@ -110,8 +118,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("data/MNIST/", one_hot=True)
 ```
 
-<p>
-Extracting data/MNIST/train-images-idx3-ubyte.gz
+<p class='parr'>Extracting data/MNIST/train-images-idx3-ubyte.gz
 Extracting data/MNIST/train-labels-idx1-ubyte.gz
 Extracting data/MNIST/t10k-images-idx3-ubyte.gz
 Extracting data/MNIST/t10k-labels-idx1-ubyte.gz
@@ -127,11 +134,12 @@ print("- Set de entreno:\t{}".format(len(mnist.train.labels)))
 print("- Set de test:\t\t{}".format(len(mnist.test.labels)))
 print("- Set de validación:\t{}".format(len(mnist.validation.labels)))
 ```
-
-    Tamaño de:
-    - Set de entreno:	55000
-    - Set de test:		10000
-    - Set de validación:	5000
+<p class='parr'>
+Tamaño de:
+- Set de entreno:	55000
+- Set de test:		10000
+- Set de validación:	5000
+</p>
 
 
 MNIST contiene imagenes de números manuscritos que van desde el 0 hasta el 9, por tanto tenemos 10 clases a clasificar. Las imagenes se almacenan en un vector y las etiquetas en otro.   
