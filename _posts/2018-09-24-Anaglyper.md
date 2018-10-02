@@ -84,6 +84,9 @@ name = ''.join(choices(string.ascii_uppercase + string.digits, k=5))
 # Save 3D-Anaglyph Image
 cv2.imwrite('results/{0}.jpg'.format(name),Image3D)
 ```
+Full code available [here](https://github.com/pedrofrodenas/anaglypher)
+
+Direct [Download](https://github.com/pedrofrodenas/anaglypher/archive/master.zip)
 
 ![/assets/images/WICZG.jpg](/assets/images/WICZG.jpg)
 ![/assets/images/H1GF3.jpg](/assets/images/H1GF3.jpg)
