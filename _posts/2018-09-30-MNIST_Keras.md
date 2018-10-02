@@ -409,16 +409,12 @@ model.fit(x=images_train,
           y=labels_train,
           epochs=1, batch_size=128)
 ```
+<p class='parr'>
+Epoch 1/1
+55000/55000 [==============================] - 68s 1ms/step - loss: 0.2281 - acc: 0.9332
 
-    Epoch 1/1
-    55000/55000 [==============================] - 68s 1ms/step - loss: 0.2281 - acc: 0.9332
-
-
-
-
-
-    <keras.callbacks.History at 0x1369b5208>
-
+<keras.callbacks.History at 0x1369b5208>
+</p>
 
 
 El parámtro **acc** es la precisión que ha obtenido la red para el conjunto de entreno.  
@@ -434,8 +430,7 @@ result = model.evaluate(x=images_test,
                         y=labels_test)
 ```
 
-    10000/10000 [==============================] - 5s 511us/step
-
+<p class='parr'>10000/10000 [==============================] - 5s 511us/step</p>
 
 
 ```python
@@ -443,9 +438,9 @@ for name, value in zip(model.metrics_names, result):
     print(name, value)
 ```
 
-    loss 0.07200780406584963
-    acc 0.9764
-
+<p class='parr'>loss 0.07200780406584963
+acc 0.9764
+</p>
 
 ### Predecir y mostrar algunos ejemplos
 
