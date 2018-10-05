@@ -94,6 +94,6 @@ Direct [Download](https://github.com/pedrofrodenas/anaglypher/archive/master.zip
 ![/assets/images/7SNE1.jpg](/assets/images/7SNE1.jpg)
 
 ## License
-(c) 2013 Pedro Rodenas. MIT License
+(c) 2018 Pedro Rodenas. MIT License
 
 
