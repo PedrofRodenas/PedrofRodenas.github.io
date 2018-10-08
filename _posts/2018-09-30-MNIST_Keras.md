@@ -18,7 +18,7 @@ Tutorial de Deep Learning con Keras para clasificar la base de datos MNIST.
   }
 </style>
 
-El código completo de este post está disponible en [libreta de Jupyter](https://github.com/PedrofRodenas/Deep-Learning-Tutoriales/blob/master/MNIST_Keras.ipynb)
+El código completo de este post está disponible en [libreta de Jupyter](https://github.com/pedrofrodenas/Deep-Learning-Tutoriales/blob/master/1_MNIST_Keras.ipynb)
 
 ### Introducción
 
