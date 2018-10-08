@@ -93,13 +93,14 @@ Ahora que se ha comentado las operaciones principales que realizan este tipo de 
 ```python
 %matplotlib inline
 import matplotlib.pyplot as plt
+import tensorflow as tf
 import numpy as np
+
 from random import sample
-from keras.models import Sequential
-from keras.layers import Reshape, MaxPooling2D
-from keras.layers import Conv2D, Dense, Flatten
-from keras.layers import InputLayer
-from keras.optimizers import Adam
+from tensorflow.python.keras.models import Sequential
+from tensorflow.python.keras.layers import Reshape, MaxPooling2D
+from tensorflow.python.keras.layers import Conv2D, Dense, Flatten
+from tensorflow.python.keras.optimizers import Adam
 ```
 
 <p class='parr'>Using TensorFlow backend.</p>
@@ -313,13 +314,9 @@ En nuestro caso las imagenes se encuentran en un vector de una fila y 28*28 colu
 # Llamamos al constructor del modelo sequential
 model = Sequential()
 
-# Añadimos la capa de entrada especificando el formato
-# en el que se encuentran los datos de entrada
-model.add(InputLayer(input_shape=(img_size_flat,)))
-
-# Modificar el vector de 784 elementos para formar 
+# Capa encargada de convertir el vector de 784 elementos para formar 
 # la imagen de (28, 28, 1)
-model.add(Reshape(img_shape_full))
+model.add(Reshape(img_shape_full, input_shape=(img_size_flat,)))
 
 # Primera capa convolucional con funcion de activacion ReLU y max-pooling.
 model.add(Conv2D(kernel_size=5, strides=1, filters=16, padding='same',
@@ -488,7 +485,7 @@ NOTA: Será necesario instalar el paquete h5py para poder guardar modelos.
 ```python
 # Definir la carpeta donde se guarda el modelo y su nombre.
 # En este caso se guarda en el mismo directorio que contiene este script
-nombre_model = 'modelo.keras'
+nombre_model = 'modelo.h5'
 
 # Guardamos el modelo y todos los pesos entrenados
 model.save(nombre_model)
