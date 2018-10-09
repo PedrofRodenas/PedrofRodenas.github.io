@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Cargar modelo entrenado con Keras"
+title:  "Cargar modelo entrenado con Keras para clasificar MNIST"
 header:
   teaser: "/assets/images/mnist.jpg"
 date:   2018-10-09
@@ -23,7 +23,7 @@ El código completo de este post está disponible en [libreta de Jupyter](https:
 
 ### Introducción
 
-En el [anterior tutorial](https://github.com/pedrofrodenas/Deep-Learning-Tutoriales/blob/master/1_MNIST_Keras.ipynb) hemos entrenado una red neuronal con Keras para clasificar la base de datos MNIST.  
+En el [anterior tutorial](https://pedrofrodenas.github.io/MNIST_Keras/) hemos entrenado una red neuronal con Keras para clasificar la base de datos MNIST.  
 En este tutorial aprenderemos como cargar un modelo y realizar clasificaciones con el sin tener que realizar todo el proceso de entreno.
 
 
@@ -77,11 +77,11 @@ img_shape = (28, 28)
 ```
 
 ### Importación de modelo entrenado
-El modelo entrenado en el [anterior tutorial](https://github.com/pedrofrodenas/Deep-Learning-Tutoriales/blob/master/1_MNIST_Keras.ipynb) ha sido nombrado _modelo.keras_ . Es necesario incluir la ruta completa al modelo para ser cargado correctamente.  
+El modelo entrenado en el [anterior tutorial](https://pedrofrodenas.github.io/MNIST_Keras/) ha sido nombrado _modelo.keras_ . Es necesario incluir la ruta completa al modelo para ser cargado correctamente.  
 El modelo contiene almacenado la estructura de la red neuronal, el conjunto de matrices de pesos entrenadas. 
 A continuacion se incluye la ruta al modelo y se carga.
 
-Si no has entrenado la red neuronal del [tutorial anterior](https://github.com/pedrofrodenas/Deep-Learning-Tutoriales/blob/master/1_MNIST_Keras.ipynb) y guardado el modelo no es posible cargarlo en este tutorial.
+Si no has entrenado la red neuronal del [tutorial anterior](https://pedrofrodenas.github.io/MNIST_Keras/) y guardado el modelo no es posible cargarlo en este tutorial.
 
 
 ```python
