@@ -243,6 +243,7 @@ def plot_imagenes(imagenes, verdaderas, predichas=None):
             ax.spines['top'].set_color(color)
             ax.spines['left'].set_color(color)
             ax.spines['right'].set_color(color)
+            color = 'green'
 
         # Mostrar los numeros en el eje x
         ax.set_xlabel(xlabel)
